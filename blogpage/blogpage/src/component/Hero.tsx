@@ -9,7 +9,7 @@ export default function Hero() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
   return (
-    <div className='relative min-h-[80vh] bg-cover bg-center bg-fixed' style={{ backgroundImage: `url(${Background})` }}>
+    <div id="home" className='relative min-h-[80vh] bg-cover bg-center bg-fixed' style={{ backgroundImage: `url(${Background})` }}>
       {/* Updated overlay with reduced opacity and gradient */}
       <div className='absolute inset-0 bg-gradient-to-b from-black/50 to-black/30'></div>
 
@@ -62,11 +62,11 @@ export default function Hero() {
           z-40 md:z-auto
         `}>
           <ul className='flex flex-col md:flex-row space-y-2 md:space-y-0 md:space-x-6 md:gap-10 py-8 justify-center text-white pt-20 md:pt-8'>
-            <li className='cursor-pointer hover:text-yellow-500'>Home</li>
-            <li className='cursor-pointer hover:text-yellow-500'>About Us</li>
-            <li className='cursor-pointer hover:text-yellow-500'>Category</li>
-            <li className='cursor-pointer hover:text-yellow-500'>Blog</li>
-            <li className='cursor-pointer hover:text-yellow-500'>Contact Us</li>
+            <li> <a href="#home" className='cursor-pointer hover:text-yellow-500'>Home</a></li>
+            <li> <a href="#explore" className='cursor-pointer hover:text-yellow-500'>Explore</a></li>
+            <li><a href="#category" className='cursor-pointer hover:text-yellow-500'>Category</a></li>
+            <li> <a href="#blog" className='cursor-pointer hover:text-yellow-500'>Blog</a></li>
+            <li> <a href="#social" className='cursor-pointer hover:text-yellow-500'>Social Media</a></li>
           </ul>
         </nav>
 

@@ -18,7 +18,7 @@ import { useState } from 'react'
 export default function Category() {
   return (
     <div>
-      <h1 className="flex font-sans font-bold justify-center text-3xl">
+      <h1 id="category" className="flex font-sans font-bold justify-center text-3xl">
         Choose a category
       </h1>
 
@@ -91,7 +91,7 @@ export default function Category() {
       </div>
 
       <br />
-      <h1 className="flex font-sans font-bold justify-center text-3xl">
+      <h1 id="explore" className="flex font-sans font-bold justify-center text-3xl">
         Features Explore
       </h1>
 
@@ -234,7 +234,7 @@ export default function Category() {
 
       <section className="container mx-auto px-4">
         <div className="flex flex-col items-center mb-8">
-          <h1 className="flex font-sans font-bold justify-center text-3xl">Features Explore</h1>
+          <h1 id="blog"className="flex font-sans font-bold justify-center text-3xl">My Latest Blog</h1>
         </div>
 
         <div className="container mx-auto px-4 lg:px-8">
@@ -492,7 +492,7 @@ export default function Category() {
       </section>
 
       <div className="flex flex-col items-center mb-8 p-8">
-        <h1 className="flex font-sans font-bold justify-center text-3xl">Follow Me Instagram</h1>
+        <h1 id="social" className="flex font-sans font-bold justify-center text-3xl">Follow Me Instagram</h1>
         <p className="text-yellow-600 text-2xl">@designhunterrbd</p>
         
         {/* Instagram Grid */}
