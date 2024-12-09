@@ -12,7 +12,6 @@ import logo4Plus from "../assets/logo/4+.png";
 import logo5Plus from "../assets/logo/5+.png";
 import { FaFacebook, FaTwitter, FaYoutube } from "react-icons/fa"
 import { AiFillInstagram } from "react-icons/ai"
-import { useState } from 'react'
 
 
 export default function Category() {

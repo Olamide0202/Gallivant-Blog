@@ -1,4 +1,7 @@
 import FeatureCard from './FeatureCard';
+import logo1 from '../assets/logo/1.png'
+import logo2 from '../assets/logo/1.png'
+
 // ... other imports ...
 
 export default function Category() {
